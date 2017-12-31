@@ -1,5 +1,5 @@
-import d3 from 'd3';
-import * as nwt from './contour-utils';
+// import d3 from 'd3';
+import * as nwt from './contour-utils.js';
 
 var _extent = function (series, field) {
     var maxs = [], mins = [];

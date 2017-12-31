@@ -1,4 +1,4 @@
-import Contour from './contour';
+import Contour from './contour.js';
 
 var root = typeof window === 'undefined' ? this : window;
 

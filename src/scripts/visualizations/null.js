@@ -1,4 +1,4 @@
-import { noop } from '../utils/contour-utils';
-import Contour from '../core/contour';
+import { noop } from '../utils/contour-utils.js';
+import Contour from '../core/contour.js';
 
 Contour.export('nullVis', noop);

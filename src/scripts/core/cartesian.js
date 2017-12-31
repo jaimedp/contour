@@ -1,7 +1,7 @@
-import d3 from 'd3';
-import * as nwt from '../utils/contour-utils';
-import Contour from './contour';
-import { xScaleFactory, yScaleFactory } from './axis/axis-scale-factory';
+// import d3 from 'd3';
+import * as nwt from '../utils/contour-utils.js';
+import Contour from './contour.js';
+import { xScaleFactory, yScaleFactory } from './axis/axis-scale-factory.js';
 
 var defaults = {
     chart: {

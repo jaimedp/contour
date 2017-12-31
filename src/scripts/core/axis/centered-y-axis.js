@@ -1,6 +1,6 @@
-import d3 from 'd3';
-import * as nwt from '../../utils/contour-utils';
-import YAxis from './y-axis';
+// import d3 from 'd3';
+import * as nwt from '../../utils/contour-utils.js';
+import YAxis from './y-axis.js';
 
 // focus on vertically centering data - zero anchor is ignored
 function CenteredYAxis(data, options, domain) {

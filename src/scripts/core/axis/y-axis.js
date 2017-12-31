@@ -1,5 +1,5 @@
-import d3 from 'd3';
-import * as nwt from '../../utils/contour-utils';
+// import d3 from 'd3';
+import * as nwt from '../../utils/contour-utils.js';
 
 function YAxis(data, options, domain) {
     this.data = data;

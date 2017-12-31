@@ -1,6 +1,6 @@
-import d3 from 'd3';
-import * as nwt from '../utils/contour-utils';
-import Contour from '../core/contour';
+// import d3 from 'd3';
+import * as nwt from '../utils/contour-utils.js';
+import Contour from '../core/contour.js';
 
 function normalizeDataSet(dataSet) {
     var all = nwt.flatten(dataSet.map(function (set) { return set.data; }));

@@ -1,11 +1,11 @@
-import * as nwt from '../../utils/contour-utils';
-import YAxis from  './y-axis';
-import CenteredYAxis from './centered-y-axis';
-import LinearScale from './linear-scale-axis';
-import LogYAxis from './log-y-axis';
-import OrdinalScale from './ordinal-scale-axis';
-import SmartYAxis from './smart-y-axis';
-import TimeScale from './time-scale-axis';
+import * as nwt from '../../utils/contour-utils.js';
+import YAxis from  './y-axis.js';
+import CenteredYAxis from './centered-y-axis.js';
+import LinearScale from './linear-scale-axis.js';
+import LogYAxis from './log-y-axis.js';
+import OrdinalScale from './ordinal-scale-axis.js';
+import SmartYAxis from './smart-y-axis.js';
+import TimeScale from './time-scale-axis.js';
 
 
 export const axes = {

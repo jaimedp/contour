@@ -1,5 +1,5 @@
-import d3 from 'd3';
-import YAxis from './y-axis';
+// import d3 from 'd3';
+import YAxis from './y-axis.js';
 
 function LogYAxis(data, options) {
     this.data = data;

@@ -1,6 +1,6 @@
-import d3 from 'd3';
-import * as nwt from '../../utils/contour-utils';
-import YAxis from './y-axis';
+// import d3 from 'd3';
+import * as nwt from '../../utils/contour-utils.js';
+import YAxis from './y-axis.js';
 
 function SmartYAxis(data, options, domain) {
     this.data = data;
